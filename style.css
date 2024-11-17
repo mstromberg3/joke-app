@@ -2,14 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Rubik", sans-serif; 
+    font-family: "Rubik", sans-serif;
 }
 
-body{
-    background-color:#fab22e;
-}
-.wrapper{
-    width: 80vmin;
+body {
     padding: 50px 40px;
     background-color: #15161a;
     position: absolute;
@@ -19,16 +15,19 @@ body{
     border-radius: 5px;
     box-shadow: 20px 20px 40px rgba(97,63,0,0.4);
 }
-span{
+
+span {
     display: block;
     text-align: center;
     font-size: 100px;
 }
-h1{
+
+h1 {
     color: #808080;
     text-align: center;
 }
-p{
+
+p {
     font-size: 16px;
     color: #ffffff;
     font-weight: 400;
@@ -38,11 +37,13 @@ p{
     margin: 30px 0;
     opacity: 0;
 }
-.fade{
+
+.fade {
     opacity: 1;
     transition: opacity 1.5s;
 }
-button{
+
+button {
     display: block;
     background-color: #fab22e;
     border: none;
