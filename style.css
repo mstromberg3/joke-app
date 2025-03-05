@@ -17,6 +17,13 @@ span {
     font-size: 100px;
 }
 
+img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    height: 100px;
+}
+
 h1 {
     color: #ffffff;
     text-align: center;
