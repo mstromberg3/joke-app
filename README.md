@@ -1,7 +1,7 @@
-# joke-app
-Random joke generator
+# abel-affirmations
+Random affirmation generator
 
-url to try: https://mstromberg3.github.io/joke-app/ 
+url to try: https://mstromberg3.github.io/abel-affirmations
 
 Followed the tutorial in this video: https://www.youtube.com/watch?v=xHuaEKCldhE&list=PLNCevxogE3fiLT6bEObGeVfHVLnttptKv 
 
