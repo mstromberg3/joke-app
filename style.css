@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: white;
+    background: linear-gradient(135deg, #153677, #4e085f);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -21,11 +21,7 @@ img {
     display: block;
     margin-left:auto;
     margin-right:auto;
-    height:100px;
-}
-
-.affirmation {
-    height:50vh;
+    height: 100px;
 }
 
 h1 {
@@ -44,42 +40,14 @@ p {
     opacity: 0;
 }
 
-.fade-out {
+.fade {
     opacity: 1;
-    animation-name:card;
-    animation-duration: 1s;
-}
-
-.fade-in {
-    opacity: 1;
-    animation-name:card;
-    animation-delay:0.5s;
-}
-
-@keyframes card {
-    0% {
-    }
-
-    25% {
-        transform: rotateY(90deg);
-    }
-
-    50% {
-        transform: rotateY(180deg);
-    }
-
-    75% {
-        transform: rotateY(270deg);
-    }
-
-    100% {
-        transform: rotateY(360deg);
-    }
+    transition: opacity 1.5s;
 }
 
 button {
     display: block;
-    background-color: darkblue;
+    background-color: #ffffff;
     border: solid;
     border-color: white;
     padding: 5px;
